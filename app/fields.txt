@@ -1,0 +1,76 @@
+/*
+
+'ID': 'SOURCE_ID',
+'NAME': 'web_name',
+'DAYS': 'web_days',
+'FIRST_DAY': 'web_date'
+
+'CAP_HOSP': 'hcap_input',
+'CAP_ICU': 'icap_input',
+'CAP_VENT': 'vcap_input',
+
+'COUNTS_HOSP': 'web_chosp',
+'COUNTS_ICU': 'web_cicu',
+'COUNTS_VENT': 'web_cvent',
+
+'PEAK_HOSP': 'pk_hsp',
+'PEAK_ICU': 'pk_icu',
+'PEAK_VENT': 'pk_vnt',
+
+'OVER_HOSP': 'oc_hos_max',
+'OVER_ICU': 'oc_icu_max',
+'OVER_VENT': 'oc_vent_max',
+
+0: "OBJECTID"
+1: "DblTime"
+2: "SocDistPer"
+3: "InfHospPer"
+4: "InfICUPer"
+5: "InfVentPer"
+6: "HospStay"
+7: "ICUStay"
+8: "VentStay"
+9: "HospMrShrP"
+10: "InfDays"
+11: "Population"
+12: "NumHosp"
+13: "hcap_input"
+14: "vcap_input"
+15: "icap_input"
+16: "NAME"
+17: "GEOID"
+18: "pk_hsp"
+19: "pk_day_hsp"
+20: "pk_dte_hsp"
+21: "pk_icu"
+22: "pk_day_icu"
+23: "pk_dte_icu"
+24: "pk_vnt"
+25: "pk_day_vnt"
+26: "pk_dte_vnt"
+27: "oc_hos_max"
+28: "oc_hos_day"
+29: "oc_hos_dte"
+30: "oc_hos_pct"
+31: "oc_hos_num"
+32: "oc_icu_max"
+33: "oc_icu_day"
+34: "oc_icu_dte"
+35: "oc_icu_pct"
+36: "oc_icu_num"
+37: "oc_vnt_max"
+38: "oc_vnt_day"
+39: "oc_vnt_dte"
+40: "oc_vnt_pct"
+41: "oc_vnt_num"
+42: "SOURCE_ID"
+43: "web_chosp"
+44: "web_cicu"
+45: "web_cvent"
+46: "web_days"
+47: "web_date"
+48: "web_name"
+49: "Shape__Area"
+50: "Shape__Length"
+
+ */

@@ -1,0 +1,155 @@
+{
+  "configurationSettings": [
+    {
+      "category": "Capacity Analysis",
+      "fields": [
+        {
+          "type": "paragraph",
+          "value": "Required: a Web Map with at least two Feature Layers with model results from the '...' GP Tool."
+        },
+        {
+          "type": "webmap",
+          "conditions": [
+            "featurelayer"
+          ]
+        },
+        {
+          "type": "color",
+          "fieldName": "ThemeTextColor",
+          "label": "Theme Text Color",
+          "transparency": false,
+          "noColor": false
+        },
+        {
+          "type": "color",
+          "fieldName": "ThemeBackgroundColor",
+          "label": "Theme Background, Color",
+          "transparency": false,
+          "noColor": false
+        },
+        {
+          "type": "string",
+          "fieldName": "ApplicationTitle",
+          "label": "Application Title",
+          "tooltip": "Enter application title...",
+          "stringFieldOption": "textbox",
+          "placeHolder": "same as the Web Map title"
+        },
+        {
+          "type": "string",
+          "fieldName": "AnalysisDetails",
+          "label": "Analysis Details",
+          "tooltip": "Provide details of the analysis results...",
+          "stringFieldOption": "richtext",
+          "placeHolder": "same as Web Map description"
+        }
+      ]
+    },
+    {
+      "category": "Left Panel",
+      "fields": [
+        {
+          "type": "color",
+          "fieldName": "LeftPanelColor",
+          "label": "Left Panel Color",
+          "transparency": false,
+          "noColor": false
+        },
+        {
+          "type": "layerAndFieldSelector",
+          "fieldName": "LeftPanelLayer",
+          "label": "Left Panel Layer",
+          "tooltip": "Layer to display in the left panel...",
+          "fields": [],
+          "layerOptions": {
+            "supportedTypes": [
+              "FeatureLayer"
+            ],
+            "geometryTypes": [
+              "esriGeometryPoint",
+              "esriGeometryPolygon"
+            ]
+          }
+        },
+        {
+          "type": "string",
+          "fieldName": "LeftPanelTitle",
+          "label": "Left Panel Title",
+          "tooltip": "Title for the left panel...",
+          "stringFieldOption": "textbox",
+          "placeHolder": "same as the layer title"
+        },
+        {
+          "type": "string",
+          "fieldName": "LeftPanelDescription",
+          "label": "Left Panel Details",
+          "tooltip": "Details about the layer in the left panel...",
+          "stringFieldOption": "richtext",
+          "placeHolder": "same as the layer item description"
+        }
+      ]
+    },
+    {
+      "category": "Right Panel",
+      "fields": [
+        {
+          "type": "color",
+          "fieldName": "RightPanelColor",
+          "label": "Right Panel Color",
+          "transparency": false,
+          "noColor": false
+        },
+        {
+          "type": "layerAndFieldSelector",
+          "fieldName": "RightPanelLayer",
+          "label": "Right Panel Layer",
+          "tooltip": "Layer to display in the right panel",
+          "fields": [],
+          "layerOptions": {
+            "supportedTypes": [
+              "FeatureLayer"
+            ],
+            "geometryTypes": [
+              "esriGeometryPoint",
+              "esriGeometryPolygon"
+            ]
+          }
+        },
+        {
+          "type": "string",
+          "fieldName": "RightPanelTitle",
+          "label": "Right Panel Title",
+          "tooltip": "Title for the right panel...",
+          "stringFieldOption": "textbox",
+          "placeHolder": "same as the layer title"
+        },
+        {
+          "type": "string",
+          "fieldName": "RightPanelDescription",
+          "label": "Right Panel Details",
+          "tooltip": "Details about the layer in the right panel...",
+          "stringFieldOption": "richtext",
+          "placeHolder": "same as the layer item description"
+        }
+      ]
+    }
+  ],
+  "values": {
+    "ThemeTextColor": "#fdfdfd",
+    "ThemeBackgroundColor": "#595959",
+    "ApplicationTitle": null,
+    "AnalysisDetails": null,
+    "LeftPanelColor": "#e8912e",
+    "LeftPanelLayer": {
+      "id": null
+    },
+    "LeftPanelTitle": null,
+    "LeftPanelDescription": null,
+    "RightPanelColor": "#56a5d8",
+    "RightPanelLayer": {
+      "id": null
+    },
+    "RightPanelTitle": null,
+    "RightPanelDescription": null
+  }
+}
