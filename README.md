@@ -1,13 +1,20 @@
 # CapacityAnalysis
-The Capacity Analysis configurable app template allows you to ompare results from runs of a capacity model.
+Capacity Analysis is a configurable app template that allows users to visualize and compare two outputs of the [CHIME model geoprocessing tool](https://www.arcgis.com/home/item.html?id=37ad6eb0d1034cd58844314a9b305de2) in side-by-side maps.  This includes a chart visualizing the projected hospital beds, ICU beds, and ventilators needed to treat patients across the entire dataset for both models. 
 
-View the [release blog](https://www.esri.com/arcgis-blog/products/arcgis-online/announcements/whats-new-in-configurable-apps-march-2020/) and the [app](https://www.arcgis.com/home/item.html?id=50aaf4ec408f4675bc9f30e68441e8f8)  for more details.
+Users can use the slider to explore and compare capacity overages between the two models for each variable on a day-by-day basis. They can also interact with individual features to see how the projection curves for each variable differ from one geography to the next for each model. 
+
+View the 'Models and Maps Explore Covid-19 Surges and Capacity to Help Officials Prepare' blog post for more details on CHIME.
+
+View the [blog](https://www.esri.com/about/newsroom/blog/models-maps-explore-covid-19-surges-capacity/) for more details.
 
 # Data Requirements 
-
+ This app requires data output from the [Chime Model geoprocessing tool](https://www.arcgis.com/home/item.html?id=37ad6eb0d1034cd58844314a9b305de2). 
 
 # Configuration Options 
 
+The app has several customization options including: 
+Theme: Modify the background, panel colors and text colors used in the app. 
+Text: The app title and description can be modified to suit your needs. 
 
 ## Supported devices 
 This app is designed to support use in browsers on desktop and tablets. 
