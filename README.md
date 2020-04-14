@@ -8,11 +8,12 @@ View the 'Models and Maps Explore Covid-19 Surges and Capacity to Help Officials
 View the [blog](https://www.esri.com/about/newsroom/blog/models-maps-explore-covid-19-surges-capacity/) for more details.
 
 # Data Requirements 
- This app requires data output from the [Chime Model geoprocessing tool](https://www.arcgis.com/home/item.html?id=37ad6eb0d1034cd58844314a9b305de2). 
+ This app requires a web map that contains the data output from the [Chime Model geoprocessing tool](https://www.arcgis.com/home/item.html?id=37ad6eb0d1034cd58844314a9b305de2). 
 
 # Configuration Options 
 
 The app has several customization options including: 
+Data: Select a web map that contains the output of the CHIME model and then specify which layer should show up in the left pane and which in the right pane. 
 Theme: Modify the background, panel colors and text colors used in the app. 
 Text: The app title and description can be modified to suit your needs. 
 
