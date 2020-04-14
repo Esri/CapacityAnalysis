@@ -13,9 +13,9 @@ View the [blog](https://www.esri.com/about/newsroom/blog/models-maps-explore-cov
 # Configuration Options 
 
 The app has several customization options including: 
-Data: Select a web map that contains the output of the CHIME model and then specify which layer should show up in the left pane and which in the right pane. 
-Theme: Modify the background, panel colors and text colors used in the app. 
-Text: The app title and description can be modified to suit your needs. 
+- Data: Select a web map that contains the output of the CHIME model and then specify which layer should show up in the left pane and which in the right pane. 
+- Theme: Modify the background, panel colors and text colors used in the app. 
+- Text: The app title and description can be modified to suit your needs. 
 
 ## Supported devices 
 This app is designed to support use in browsers on desktop and tablets. 
